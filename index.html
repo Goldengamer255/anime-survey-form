@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Anime Survey</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Anime Movie Survey</h1>
+    <p id="description">Short fun anime quiz about popular anime movies</p>
+    <fieldset>
+    <form id="survey-form">
+      
+      <label for="name" id="name-label" class="detail" >Name <input id="name" type="text" required placeholder="Please Enter Name"/></label>
+      <label for="email" id="email-label" class="detail" >Email <input id="email" required placeholder="Please Enter Email" / type="email" /></label>
+      <label for="number" id="number-label" class="detail" >Phone Number <input id="number" min="0" max="15" placeholder="Please Enter Number" type="number" /></label>
+    
+    
+    <h2>Which animes have you watched?</h2>
+      <label for="pancreas"><input type="checkbox" id="pancreas" value="1" class="inline"> I Want To Eat Your Pancreas</label>
+      <label for="yourname"><input type="checkbox" id="yourname" value="2" class="inline"> Your Name</label>
+      <label for="silent"><input type="checkbox" id="silent" value="3" class="inline"> A Silent Voice</label>
+      <label for="weathering"><input type="checkbox" id="weathering" value="4" class="inline"> Weathering With You</label>
+      <label for="tunnel" ><input type="checkbox" id="tunnel" value="5" class="inline"/> The Tunnel To Summer</label>
+
+    <h2>Choose an anime to review</h2>
+    <select id="dropdown">
+      <option value="">Please Select an option</option>
+      <option value="1">I Want To Eat Your Pancreas</option>
+      <option value="2">Your Name</option>
+      <option value="3">A Silent Voice</option>
+      <option value="4">Weathering With You</option>
+      <option value="5">The Tunnel To Summer</option>
+    </select>
+    
+    
+    <h2>How did you find this movie?</h2>
+      <label for="Best-Movie-Ever"><input type="radio" name="rating" id="Best-Movie-Ever" value="1" class="inline"/> Best Movie Ever!!!!</label>
+      <label for="Was-a-really-good-movie"><input type="radio" name="rating" id="Was-a-really-good-movie" value="2" class="inline"/> Was a really good movie</label>
+      <label for="Was-an-okay-movie"><input type="radio" name="rating" id="Was-an-okay-movie" value="3" class="inline"/> Was an okay movie</label>
+      <label for="Was-a-bad-movie"><input type="radio" name="rating" id="Was-a-bad-movie" value="4" class="inline"/> Was a bad movie</label>
+      <label for="Why-was-this-movie-even-created"><input type="radio" name="rating" id="Why-was-this-movie-even-created" value="5" class="inline"/> Why was this movie even created</label>
+    
+    <h3></h3>
+    <label>Please enter any additional comments and thoughts: <textarea></textarea></label>
+    <input type="submit" value="Submit" id="submit"/>
+  </form>
+  </fieldset>
+  </body>
+</html>
